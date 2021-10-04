@@ -1,0 +1,31 @@
+#draggable-teddy {
+  position: absolute;
+  z-index: 9;
+  width: 200px;
+  top:100px;
+  left: 300px;
+}
+#draggable-teddy img {width: 100%;}
+
+#teddy-img {
+  cursor: move;
+  z-index: 10;
+}
+
+.kidm {
+    display: flex;
+    border: 1px solid red;
+}
+
+/* .grid div {
+    flex: 1;
+} */
+
+.kidm .left {
+    flex: 40%;
+    border: 1px solid black;
+}
+.kidm .right {
+    flex: 60%;
+    border: 1px solid black;
+}
